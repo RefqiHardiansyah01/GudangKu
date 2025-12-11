@@ -5,7 +5,7 @@
 @section('content')
 <div class="container">
 
-    {{-- GREETING CARD --}}
+    {{-- Penyambutan --}}
     <div class="row justify-content-center">
         <div class="col-md-10">
             <div class="card shadow-sm border-0">
@@ -27,7 +27,7 @@
         </div>
     </div>
 
-    {{-- STATISTIK --}}
+    {{-- Total Barang --}}
     <div class="row mt-4 justify-content-center">
         <div class="col-md-4">
             <div class="card stat-card shadow-sm text-center p-3">
@@ -37,7 +37,7 @@
         </div>
     </div>
 
-    {{-- DATA BARANG --}}
+    {{-- Header --}}
     <div class="container mt-4">
         <div class="d-flex justify-content-between align-items-center mb-3">
             <h5 class="fw-bold">📦 Daftar Barang</h5>
@@ -45,7 +45,8 @@
                 + Tambah Barang
             </a>
         </div>
-
+    
+        {{-- Tabel --}}
         <div class="card shadow-sm border-0">
             <div class="card-body p-0">
                 <table class="table table-hover mb-0 align-middle">
@@ -102,7 +103,7 @@
             </div>
         </div>
 
-        {{-- PAGINATION --}}
+        {{-- PAGINASI --}}
         <div class="mt-3">
             {{ $barangs->links() }}
         </div>

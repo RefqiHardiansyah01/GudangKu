@@ -113,16 +113,16 @@
 
     .tombol-kembali {
         border-radius: 12px;
-        background: linear-gradient(135deg, #dbeafe, #f3e8ff); /* biru lembut → ungu muda */
+        background: linear-gradient(135deg, #dbeafe, #f3e8ff);
         border: 1px solid rgba(255, 255, 255, 0.4);
         backdrop-filter: blur(6px);
-        color: #1e3a8a; /* teks biru gelap elegan */
+        color: #1e3a8a;
         padding: 8px 14px;
         transition: all 0.25s ease;
     }
 
     .tombol-kembali:hover {
-        background: linear-gradient(135deg, #bfdbfe, #e9d5ff); /* lebih kuat saat hover */
+        background: linear-gradient(135deg, #bfdbfe, #e9d5ff);
         transform: translateY(-3px);
         box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
     }
